@@ -1,0 +1,13 @@
+server {
+  listen 80;
+
+  root {{ nginx_root }};
+  index index.html index.htm;
+  error_page 404 /404.html;
+  sendfile off;
+  keepalive_timeout 2;
+  access_log /var/log/nginx/stel_access.log;
+  error_log  /var/log/nginx/stel_error.log warn;
+
+}
+	

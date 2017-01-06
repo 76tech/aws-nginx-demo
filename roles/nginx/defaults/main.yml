@@ -1,0 +1,5 @@
+---
+
+nginx_root: /usr/web/vhosts/stel/htdocs
+packages_nginx:
+  - nginx
