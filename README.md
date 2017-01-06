@@ -36,8 +36,12 @@ Ansible will perform the following steps:
 5. Configure nginx to serve a single static page which says only "Automation for the People"
 6. Test that nginx is running, and that the correct page is being served
 7. Output a debug line which shows the URL to verify that the playbook ran successfully
+
 Ex.
+
+```
 TASK [debug web server] **********************************************************
 ok: [n.n.n.n] => {
-    "msg": "Browse to http://n.n.n.n to verify"
+     "msg": "Browse to http://n.n.n.n to verify"
 }
+```
